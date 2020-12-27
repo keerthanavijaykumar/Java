@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+	  String str = "y1";
+	  int len = str.length();
+	  for(int i=0; i<len ; i++){
+	      if(Character.isDigit(str.charAt(i)))
+	         System.out.println("Yes");
+	      else
+	          System.out.println("No");
+	  }
+	}
+}
