@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	  String str = "6";
+	  if(str.matches("[0-9]+") && str.length()>2){
+	      System.out.println("String contain only digits");
+	  }
+	  else{
+	      System.out.println("String contain digits and Character");
+	  }
+}
+}
